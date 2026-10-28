@@ -1,0 +1,3 @@
+# Workshop app: not meant to be indexed.
+User-agent: *
+Disallow: /
