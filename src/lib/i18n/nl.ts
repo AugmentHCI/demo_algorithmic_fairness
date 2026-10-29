@@ -290,6 +290,7 @@ export const nl = {
 		rank: (rank: number) => `Jij bent ${ordinal(rank)}.`,
 		body: 'Dit is bepaald door de score die je kreeg.',
 		stand: 'Zoek je plek op de tafel, en zet je blokje daar.',
+		qualified: 'Elke sollicitant in deze lijst heeft al de vereiste vaardigheden.',
 		outcomeIn: 'Je bent uitgenodigd!',
 		outcomeOut: 'Je bent niet uitgenodigd.',
 		detailIn: (slots: number) => `Enkel de top ${slots} mag op gesprek, en daar hoor jij bij.`,
