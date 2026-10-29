@@ -77,6 +77,7 @@
 				{#if stage !== 'verdict'}
 					<CandidateRows {pool} invitedIds={outcomes.bare_box.invitedIds} enterFrom={arrivals} />
 				{/if}
+				<p class={['muted', afterVerdict]} style:--order={2}>{t.bareBox.qualified}</p>
 			</div>
 
 			{#if stage === 'verdict'}
@@ -88,7 +89,7 @@
 
 		{#snippet actions()}
 			<AtScreenEnd>
-				<div class={afterVerdict} style:--order={2} inert={stage !== 'done'}>
+				<div class={afterVerdict} style:--order={3} inert={stage !== 'done'}>
 					<Button onclick={() => journey.next()}>{t.common.next}</Button>
 				</div>
 			</AtScreenEnd>
