@@ -258,6 +258,7 @@ export const en: Messages = {
 		rank: (rank) => `You are ${ordinal(rank)}.`,
 		body: 'This was decided by the score you were given.',
 		stand: 'Find your place on the table and put your block there.',
+		qualified: 'Every applicant in this list already has the required skills.',
 		outcomeIn: 'You are invited!',
 		outcomeOut: 'You are not invited.',
 		detailIn: (slots) => `Only the top ${slots} get an interview, and you are one of them.`,
